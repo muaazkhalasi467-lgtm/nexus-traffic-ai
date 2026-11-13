@@ -1,0 +1,19 @@
+{
+  "city": "Belagavi",
+  "junctions": [
+    { "id": "J1", "name": "Rani Chennamma Circle", "lat": 15.8597, "lng": 74.5045, "base_cycle_sec": 90 },
+    { "id": "J2", "name": "Bogarves Circle", "lat": 15.8542, "lng": 74.5089, "base_cycle_sec": 80 },
+    { "id": "J3", "name": "College Road Junction", "lat": 15.8621, "lng": 74.5112, "base_cycle_sec": 75 },
+    { "id": "J4", "name": "CBT Bus Stand Circle", "lat": 15.8568, "lng": 74.5150, "base_cycle_sec": 90 },
+    { "id": "J5", "name": "Tilakwadi 1st Gate", "lat": 15.8385, "lng": 74.5058, "base_cycle_sec": 85 },
+    { "id": "J6", "name": "Goaves Circle", "lat": 15.8450, "lng": 74.5072, "base_cycle_sec": 80 }
+  ],
+  "roads": [
+    { "id": "R1", "name": "Chennamma - Bogarves Rd", "from": "J1", "to": "J2", "length_km": 0.85, "max_speed_kmh": 40, "has_speed_camera": false, "zone_type": "CITY_CORE", "capacity_pcu": 120 },
+    { "id": "R2", "name": "Chennamma - College Rd", "from": "J1", "to": "J3", "length_km": 0.90, "max_speed_kmh": 30, "has_speed_camera": true, "zone_type": "SCHOOL_ZONE", "capacity_pcu": 100 },
+    { "id": "R3", "name": "Bogarves - CBT Rd", "from": "J2", "to": "J4", "length_km": 0.75, "max_speed_kmh": 40, "has_speed_camera": false, "zone_type": "CITY_CORE", "capacity_pcu": 110 },
+    { "id": "R4", "name": "College Rd - CBT Link", "from": "J3", "to": "J4", "length_km": 0.80, "max_speed_kmh": 35, "has_speed_camera": false, "zone_type": "MARKET_ZONE", "capacity_pcu": 90 },
+    { "id": "R5", "name": "NH-48 Highway Bypass Link", "from": "J2", "to": "J6", "length_km": 1.80, "max_speed_kmh": 60, "has_speed_camera": true, "zone_type": "HIGHWAY_CAMERA_ZONE", "capacity_pcu": 160 },
+    { "id": "R6", "name": "Goaves - Tilakwadi Gate", "from": "J6", "to": "J5", "length_km": 0.95, "max_speed_kmh": 45, "has_speed_camera": true, "zone_type": "RAILWAY_CROSSING_ZONE", "capacity_pcu": 130 }
+  ]
+}
